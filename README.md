@@ -1,4 +1,4 @@
-# double-quote-json2single-quote-json
+# json-quotifier
 
 "" -> '' for all json formats.
 
