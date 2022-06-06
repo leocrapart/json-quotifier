@@ -10,7 +10,7 @@
 (defn single-quote-string [double-quote-string]
   (str/escape double-quote-string {\" "'"}))
 
-(defn double-quote-strieng [single-quote-string]
+(defn double-quote-string [single-quote-string]
   (str/escape single-quote-string {\' "\""}))
 
 (single-quote-string "\"field1\"")
@@ -24,10 +24,8 @@
 
 
 ;; => "'field1'"
-(println (str "'lala' \"lala\""))
-
-
-
+(println 
+	(str "'lala' \"lala\""))
 
 
 
