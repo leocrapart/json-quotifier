@@ -17,9 +17,11 @@
 (single-quote-string "\"field1\":\"value1\"")
 (single-quote-string "{\"field1\":\"value1\"}")
 
-
+(single-quote-string "\"field1\"")
 (double-quote-string "'field1'")
 
+
+(defn print [])
 
 
 
@@ -39,17 +41,23 @@
 		'$id': 'id_1_test_qa',
 		'$pk': 'pk_1_test_qa',
 		'$model': 'test_model',
-		'field1': {
-				'field11' : 'value11',
-				'field12': 1,
-				'field13': true,
-				'field14': ['value14[0]', 'value14[1]'],
-				'field15': {'field151' : 'value151', 'field152' : 'value152'},
-				'field16': '',
-				'field17': null
-				}
+		'field1': [[  ['value1[0][0][0]', 'value1[0][0][1]']  , 'value1[0][1]'], 'value1[1]']
 		}")
 
 
 (println
   (double-quote-string test-json))
+
+
+
+
+;; idea for clojure developement
+;; explore all IDEs 
+
+;; reqs
+;; -snappy (like sublime)
+;; -inline evaluation (like clojure sublimed)
+;; -support cljs repl
+;; -clean color highlight (like sublime default colors for clojure/script)
+;; -paredit parinfer stuff working fine
+;; -all in one (cmd into the IDE, or easy shortcut to open with good path)
