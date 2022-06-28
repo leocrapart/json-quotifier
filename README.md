@@ -1,13 +1,15 @@
 # json-quotifier
 
-"" -> '' for all json formats.
+"" -> ''
 
-and eventually the other way : '' -> ""
+Tool to convert double quoted json "" to single quoted json ''
 
-helper tool for entreprise project
-Web app interface with multiline input field, and copy button to copy directly the output
 
-in clojure
+
+Future upgrades :
+- re-frame app to use in browser
+- '' -> ""
+
 
 ## Getting started
 
