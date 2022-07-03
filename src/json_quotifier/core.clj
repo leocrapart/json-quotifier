@@ -21,14 +21,9 @@
 (double-quote-string "'field1'")
 
 
-(defn print [])
-
-
-
 ;; => "'field1'"
 (println 
-	(str "'lala' \"lala\""))
-
+  (str "'lala' \"lala\""))
 
 
 
