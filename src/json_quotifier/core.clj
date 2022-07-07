@@ -50,16 +50,7 @@
 
 
 
-;; idea for clojure developement
-;; explore all IDEs 
 
-;; reqs
-;; -snappy (like sublime)
-;; -inline evaluation (like clojure sublimed)
-;; -support cljs repl
-;; -clean color highlight (like sublime default colors for clojure/script)
-;; -paredit parinfer stuff working fine
-;; -all in one (cmd into the IDE, or easy shortcut to open with good path)
 
 (comment 
   "double quote the gherkin files of the Digital twin specflow project"
@@ -78,6 +69,8 @@
   (println double-quote-gherkin-file)
 
   (def output-gherkin-file-path "C:\\Users\\l.crapart\\source\\repos\\DigitalGraphData\\tests\\DigitalTwin.tests.IntegrationTests\\Features\\Update\\UpdateEntityPatch_BasicPropertiesWithPartialJson2.feature")
+  
+  ;; outputs new file double-quoted
   (spit output-gherkin-file-path double-quote-gherkin-file)
 
 
@@ -103,6 +96,7 @@
   path-feature-path-2
 
 
+  ;; outputs the new files double-quoted
   (spit add-feature-path-2 
     (double-quote-string (slurp add-feature-path)))
 

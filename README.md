@@ -11,6 +11,17 @@ Future upgrades :
 - '' -> ""
 
 
+;; idea for clojure developement
+;; explore all IDEs 
+
+;; reqs
+;; -snappy (like sublime)
+;; -inline evaluation (like clojure sublimed)
+;; -support cljs repl
+;; -clean color highlight (like sublime default colors for clojure/script)
+;; -paredit parinfer stuff working fine
+;; -all in one (cmd into the IDE, or easy shortcut to open with good path)
+
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
